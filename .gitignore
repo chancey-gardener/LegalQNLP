@@ -1,2 +1,5 @@
 # ignore StanfordCoreNLP
 StanfordCoreNLP/
+#ignore data files
+data/
+synt_inf/resources/
