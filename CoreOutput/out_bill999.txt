@@ -1,0 +1,264 @@
+
+<constituencyParse>
+(ROOT (S (VP (VP (VB skip) (PP (TO to) (NP (NP (JJ content) (NN home) (NN accessibility) (NN FAQ) (NN feedback) (NN login)) (CC x) (NP (NNP Quick)))) (S (VP (VB Search)))) (: :) (NP (NP (NNP Bill) (NN Number) (NNP Bill) (NNP Keyword) (NNP Home) (NNP Bill) (NNP Information) (NNP California) (NNP Law)) (FRAG (NP (NP (NNPS Publications) (NNP Other) (NNPS Resources)) (SBAR (S (NP (NP (PRP$ My) (NNS Subscriptions)) (SBAR (S (NP (NP (PRP$ My) (NNS Favorites)) (NP (NNP Bill) (NNP Information) (NNP >>) (NNP Bill))) (VP (VB Search) (NP (CD >>)) (VP (VB Text) (S (NP (NNP Bill)) (VP (VB Text) (S (NP (NNP Bill) (NNP Information) (NNP PDF2)) (VP (VB Add) (PP (TO To) (NP (PRP$ My) (NNS Favorites)))))))))))) (VP (VBP |) (S (NP (NP (NNP Version)) (: :) (NP (CD 04/15/09)) (: -)) (VP (VBN Amended))))))) (X (NP (NN Assembly) (CD 02/26/09)) (: -) (VP (VBN Introduced) (NP (NP (NN AB-780) (NNS Elections)) (: :) (NP (JJ failsafe) (NNS ballots)))) (. .)))))))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, STATE_OR_PROVINCE, O, O, O, O, O, O, O, O, O, O, MISC, MISC, MISC, NUMBER, MISC, MISC, MISC, MISC, MISC, MISC, MISC, O, O, O, O, O, O, DATE, O, O, O, DATE, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (PRN (-LRB- -LRB-) (NP (CD 2009-2010)) (-RRB- -RRB-))) (VP (VBP Text) (S (NP (NP (CD >>) (NNS Votes)) (RRC (NP (NP (CD >>) (NN History)) (NP (NP (CD >>) (NNP Bill) (NN Analysis)) (NP (NP (CD >>) (NN Today) (POS 's)) (NN Law)))) (PP (IN As) (NP (JJ Amended) (NN >>))))) (VP (VB Compare) (NP (NP (NP (NNS Versions)) (SBAR (S (NP (NP (CD >>) (NN Status)) (SBAR (S (NP (NP (CD >>) (NNS Comments)) (PP (TO To) (NP (NN Author) (CD >>)))) (VP (VB Add) (PP (TO To) (NP (PRP$ My) (NNS Favorites))))))) (VP (VBP >>) (NP (NP (NN SHARE) (NNS THIS)) (: :) (NP (NP (NNP Bill) (NNP Start) (NNP Amended)) (PP (IN IN) (NP (NNP Assembly))))) (NP-TMP (NNP April) (CD 15) (, ,) (CD 2009)))))) (NP (NNP CALIFORNIA) (NX (NP (NN LEGISLATURE)) (: --) (NP (NP (CD 2009) (: --) (CD 2010)) (NP (NNP REGULAR) (NNP SESSION) (NNP Assembly) (NNP Bill) (NNP No.))))) (NP (NP (NP (CD 780)) (VP (VBN Introduced) (PP (IN by) (NP (NN Assembly) (NNP Member) (NNP John) (NNP A.) (NNP Perez))) (NP-TMP (NNP February) (CD 26) (, ,) (CD 2009)))) (NP (DT An) (NN act) (S (VP (TO to) (VP (VB add) (NP (NP (NN Section) (CD 14310.1)) (PP (TO to) (NP (DT the) (NNP Elections) (NNP Code))))))))) (, ,) (VP (VBG relating) (PP (TO to) (NP (NNS elections)))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, DURATION, O, O, NUMBER, O, NUMBER, O, NUMBER, O, O, NUMBER, DATE, O, O, O, O, O, O, O, NUMBER, O, NUMBER, O, O, TITLE, NUMBER, O, O, O, O, O, O, O, O, O, O, O, O, O, DATE, DATE, DATE, DATE, STATE_OR_PROVINCE, O, O, DATE, O, DATE, O, O, O, O, O, NUMBER, O, O, ORGANIZATION, O, PERSON, PERSON, PERSON, DATE, DATE, DATE, DATE, O, O, O, O, O, NUMBER, O, O, MISC, MISC, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (NP (NP (NP (JJ LEGISLATIVE) (NN COUNSEL) (POS 'S)) (NNP DIGEST) (NNP AB)) (NP (NP (CD 780)) (, ,) (PP (IN as) (NP (VBN amended))) (, ,) (NP (NNP John) (NNP A.) (NNP Perez))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, STATE_OR_PROVINCE, NUMBER, O, O, O, O, PERSON, PERSON, PERSON, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (NP (NP (NNS Elections)) (: :) (NP (JJ failsafe) (NNS ballots)) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (VBG Existing) (NN law)) (VP (VBZ permits) (SBAR (S (NP (NP (DT a) (NN voter)) (SBAR (WHNP (WP$ whose) (NP (NP (NNS qualifications)) (CC or) (NP (NN entitlement)))) (S (VP (TO to) (VP (VB vote)))))) (VP (MD can) (RB not) (VP (VB be) (VP (ADVP (RB immediately)) (VBN established) (, ,) (PP (IN under) (NP (VBN specified) (NNS circumstances)))))))) (, ,) (S (VP (TO to) (VP (VB cast) (NP (DT a) (JJ provisional) (NN ballot)) (PP (IN in) (NP (DT an) (NN election))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (DT This) (NN bill)) (VP (MD would) (VP (VB provide) (NP (JJ specified) (NNS requirements)) (S (VP (TO to) (VP (VB permit) (NP (NP (DT a) (NN voter)) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (ADJP (ADJP (RB unexpectedly) (RB away) (PP (IN from) (NP (NP (ADJP (PRP$ his) (CC or) (PRP$ her)) (NN voting) (NN precinct)) (PP (IN on) (NP (NN election) (NN day))))) (S (VP (TO to) (VP (VB cast) (NP (DT a) (NN ballot)) (PP (IN at) (NP (DT a) (NN county))))))) (CC or) (ADJP (ADJP (JJ precinct) (JJ other)) (PP (IN than) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NN voter)) (VP (VBZ resides)))))))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, DURATION, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (SBAR (IN Because) (S (NP (DT this) (NN bill)) (VP (MD would) (VP (VB increase) (NP (NP (DT the) (NNS duties)) (PP (IN of) (NP (JJ local) (NNS elections) (NNS officials)))))))) (, ,) (NP (PRP it)) (VP (MD would) (VP (VB impose) (NP (DT a) (JJ state-mandated) (JJ local) (NN program)))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (DT The) (NNP California) (NNP Constitution)) (VP (VBZ requires) (NP (DT the) (NN state) (S (VP (TO to) (VP (VB reimburse) (NP (JJ local) (NNS agencies) (CC and) (NN school) (NNS districts)) (PP (IN for) (NP (NP (JJ certain) (NNS costs)) (VP (VBN mandated) (PP (IN by) (NP (DT the) (NN state))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, STATE_OR_PROVINCE, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (JJ Statutory) (NNS provisions)) (VP (VBP establish) (NP (NNS procedures)) (PP (IN for) (S (VP (VBG making) (PP (IN that) (NP (NN reimbursement))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (DT This) (NN bill)) (VP (MD would) (VP (VB provide) (SBAR (IN that) (S (PP (IN with) (S (VP (NN regard) (PP (TO to) (NP (JJ certain) (NNS mandates)))))) (NP (DT no) (NN reimbursement)) (VP (VBZ is) (VP (VBN required) (PP (IN by) (NP (NP (DT this) (NN act)) (PP (IN for) (NP (DT a) (VBN specified) (NN reason))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (PP (IN With) (S (VP (NN regard) (PP (TO to) (NP (DT any) (JJ other) (NNS mandates)))))) (, ,) (NP (DT this) (NN bill)) (VP (MD would) (VP (VB provide) (SBAR (IN that) (, ,) (S (SBAR (IN if) (S (NP (NP (DT the) (NNP Commission)) (PP (IN on) (NP (NNP State) (NNPS Mandates)))) (VP (VBZ determines) (SBAR (IN that) (S (NP (DT the) (NN bill)) (VP (VBZ contains) (S (NP (NNS costs)) (ADJP (RB so) (VBN mandated) (PP (IN by) (NP (DT the) (NN state))))))))))) (, ,) (NP (NP (NN reimbursement)) (PP (IN for) (NP (DT those) (NNS costs)))) (VP (MD shall) (VP (VB be) (VP (VBN made) (ADVP (JJ pursuant) (PP (TO to) (NP (NP (DT the) (JJ statutory) (NNS provisions)) (VP (VBN noted) (PP (IN above))))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, ORGANIZATION, ORGANIZATION, ORGANIZATION, ORGANIZATION, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (FRAG (NP-TMP (NP (NNP Digest) (NNP Key)) (NP (NN Vote))) (: :) (NP (NP (NN MAJORITY) (NN Appropriation)) (: :) (NP (NP (NN NO)) (NP (NNP Fiscal) (NNP Committee))) (: :) (NP (NNP YES) (NNP Local) (NNP Program)))) (: :) (S (NP (NNP YES) (NNP Bill)) (VP (VB Text) (SBAR (S (NP (NP (DT The) (NNS people)) (PP (IN of) (NP (NP (DT the) (NN State)) (PP (IN of) (NP (NNP California)))))) (VP (VBP do) (S (VP (VB enact) (SBAR (IN as) (S (VP (VBZ follows)))))) (: :) (NP (NN SECTION) (CD 1))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, ORGANIZATION, ORGANIZATION, ORGANIZATION, O, O, O, O, O, O, O, O, O, O, O, O, O, O, STATE_OR_PROVINCE, O, O, O, O, O, O, NUMBER, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (NN Section) (CD 14310.1)) (VP (VBZ is) (VP (VBN added) (PP (TO to) (NP (DT the) (NNP Elections) (NNP Code))) (, ,) (S (VP (TO to) (VP (VB read) (: :) (NP (CD 14310.1))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, NUMBER, O, O, O, O, MISC, MISC, O, O, O, O, NUMBER, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (LST (-LRB- -LRB-) (DT a) (-RRB- -RRB-)) (NP (DT Any) (S (NP (NP (NP (DT A) (ADJP (VBN qualified)) (NN voter)) (SBAR (WHNP (WP who)) (S (VP (VBZ has))))) (, ,) (NP (ADJP (JJ due) (PP (TO to) (NP (NP (JJ unforeseen) (NNS circumstances)) (, ,) (VP (VBN been) (VP (VBN forced) (S (VP (TO to) (VP (VB leave) (NP (DT the) (NN jurisdiction)) (SBAR (WHADVP (WRB where)) (S (NP (PRP he) (CC or) (PRP she)) (VP (VP (VBZ is) (VP (VBN registered) (S (VP (TO to) (VP (VB vote)))))) (CC and) (VP (VBZ is) (ADJP (JJ unable) (S (VP (TO to) (VP (VB request) (NP (DT a) (NN vote)) (PP (IN by) (NP (NN mail))))))))))))))))))) (NN ballot)) (, ,)) (VP (MD shall) (VP (VB be) (VP (VBN entitled) (S (VP (TO to)))))))) (VP (MD may) (VP (VB vote) (NP (DT a) (JJ failsafe) (NN ballot)) (PP (IN for) (NP (NP (DT any) (JJ statewide) (NN office) (CC or) (NN question)) (VP (VBG appearing) (PP (IN on) (NP (NP (DT the) (NN ballot)) (PP (IN for) (NP (DT an) (NN election)))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (LST (-LRB- -LRB-) (NN b) (-RRB- -RRB-)) (PP (IN For) (NP (NP (DT the) (NNS purposes)) (PP (IN of) (NP (DT this) (NN section))))) (, ,) (NP (`` ``) (JJ failsafe) (NN ballot) ('' '')) (VP (VBZ means) (NP (NP (DT a) (NN ballot)) (VP (VBG containing) (ADVP (RB only)) (NP (NN state) (NNS candidates) (CC or) (NNS measures)) (PP (IN for) (NP (NP (DT the) (NNS purposes)) (PP (IN of) (S (VP (VBG allowing) (NP (NP (DT a) (NN voter)) (SBAR (WHNP (WP who)) (S (VP (VBZ meets) (NP (NP (DT the) (NNS criteria)) (VP (VBN set) (ADVP (RB forth)) (PP (IN in) (NP (DT this) (NN section)))))))))))))) (S (VP (TO to) (VP (VB participate) (PP (IN in) (NP (DT a) (JJ statewide) (NN election))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (FRAG (NP (JJ provisional) (NN ballot)) (, ,) (SBAR (IN as) (S (VP (VBN provided) (PP (IN for) (IN in) (NP (NP (NN Section) (CD 14310)) (, ,) (SBAR (WHPP (IN with) (WHNP (WDT which))) (S (NP (DT the) (NN voter)) (VP (MD may) (VP (VB vote) (ADVP (RB only)) (PP (IN for) (NP (NP (NNS candidates)) (PP (IN for) (NP (NP (JJ statewide) (NN office) (CC and) (JJ statewide) (NN ballot) (NNS initiatives)) (VP (VBG appearing) (PP (IN on) (NP (DT the) (NN ballot))))))))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, NUMBER, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (LST (-LRB- -LRB-) (NN c) (-RRB- -RRB-)) (S (PP (IN In) (NP (NP (NN order)) (PP (IN for) (NP (DT a) (NN voter) (S (VP (TO to) (VP (VB meet) (SBAR (S (NP (DT the) (NNS conditions)) (VP (VBP set) (ADVP (RB forth)) (PP (IN in) (NP (NP (NN subdivision)) (PRN (-LRB- -LRB-) (X (DT a)) (-RRB- -RRB-)))))))))))))) (, ,) (NP (DT the) (VBG following) (NNS criteria)) (VP (MD must) (VP (VB be) (VP (VBN met))))) (: :) (S (LST (-LRB- -LRB-) (LS 1) (-RRB- -RRB-)) (NP (DT The) (NN voter)) (VP (MD must) (VP (VB declare) (, ,) (PP (IN under) (NP (NP (NN penalty)) (PP (IN of) (NP (NN perjury))))) (, ,) (SBAR (IN that) (S (NP (PRP he) (CC or) (PRP she)) (VP (VBZ is) (NP (NP (DT a) (VBN registered) (NN voter)) (VP (VBG residing) (PP (IN in) (NP (NP (DT the) (NN State)) (PP (IN of) (NP (NNP California))))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, NUMBER, O, O, O, O, O, O, O, O, O, CRIMINAL_CHARGE, O, O, O, O, O, O, O, O, O, O, O, O, O, O, STATE_OR_PROVINCE, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (SBAR (LST (-LRB- -LRB-) (LS 2) (-RRB- -RRB-)) (IN That) (S (NP (JJ unforeseen) (NNS circumstances)) (VP (VBD arose) (SBAR (S (NP (JJ Unforeseen) (NNS circumstances)) (VP (MD must) (VP (VB have) (VP (VBN arisen) (S (VP (VBG precluding) (NP (DT the) (NN voter)) (PP (IN from) (S (VP (VBG casting) (NP (ADJP (PRP$ his) (CC or) (PRP$ her)) (NN ballot)) (PP (IN in) (NP (NP (DT the) (NN jurisdiction)) (SBAR (WHADVP (WRB wherein)) (S (NP (PRP they)) (VP (VBP are) (PP (IN in) (SBAR (WHNP (WDT which)) (S (NP (DT the) (NN voter)) (VP (VBZ is) (VP (VBN registered) (S (VP (TO to) (VP (VB vote)))))))))))))))))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, NUMBER, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (LST (-LRB- -LRB-) (LS 3) (-RRB- -RRB-)) (S (NP (NP (DT The) (NNS circumstances)) (VP (VBG precluding) (NP (DT the) (NN voter)) (PP (IN from)))) (VP (VBD arose) (SBAR (S (S (VP (VBG casting) (NP (ADJP (PRP$ his) (CC or) (PRP$ her)) (NN ballot)))) (VP (MD must) (VP (VB have) (VP (VBN arisen) (UCP (ADVP (RB suddenly)) (CC and) (PP (IN without) (S (VP (VBG warning) (SBAR (SBAR (IN after) (S (NP (NP (DT the) (NN period)) (SBAR (WHADVP (WRB where)) (S (NP (SBAR (WHPP (IN in) (WHNP (WDT which))) (S (NP (DT the) (NN voter)) (VP (MD may))))) (VP (MD could) (VP (VB have) (VP (VBN requested) (NP (DT a) (NN vote)) (PP (IN by) (NP (NN mail) (NN ballot))))))))) (VP (VBZ has) (VP (VBN passed))))) (, ,) (CC and) (SBAR (IN that) (S (NP (DT the) (NN voter)) (VP (VP (VBD did) (RB not) (VP (VB request) (NP (DT a) (NN vote)) (PP (IN by) (NP (NN mail) (NN ballot))))) (CC or) (VP (VBD requested) (NP (DT a) (NN vote)) (PP (IN by) (NP (NN mail) (NN ballot))))))))))))))))))) (CC but) (S (NP (DT the) (NN ballot)) (VP (VP (VBD did) (RB not) (VP (VB arrive))) (CC or) (VP (VBD arrived) (ADJP (RB too) (JJ late) (S (VP (TO to) (VP (VB be) (VP (VBN returned) (SBAR (RB so) (IN as) (S (VP (TO to) (VP (VB be) (VP (VBN included) (PP (IN in) (NP (NP (DT the) (NN statement)) (PP (IN of) (NP (NN vote)))))))))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, NUMBER, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (NP (NP (-LRB- -LRB-) (NN d) (-RRB- -RRB-)) (NP (DT The) (NNP County) (NNP Clerk))) (, ,) (NP (NP (NP (NNP Registrar)) (PP (IN of) (NP (NNPS Voters)))) (NP (NN county) (NN clerk))) (, ,) (NP (NP (NN registrar)) (PP (IN of) (NP (NNS voters)))) (, ,) (CC or) (NP (NP (NN county) (NNS elections)) (NP (NNS officials)))) (VP (MD must) (VP (VB maintain) (NP (NP (DT a) (JJ reasonable) (NN number)) (PP (IN of) (NP (NNS ballots)))) (SBAR (WHADVP (WRB where) (RB only)) (S (NP (NN state) (NNS candidates) (CC and) (NN measure)) (VP (VBP appear)))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, TITLE, O, TITLE, O, O, O, TITLE, O, TITLE, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (NP (NP (DT The) (NNP County) (NNP Clerk)) (, ,) (NP (NP (NNP Registrar)) (PP (IN of) (NP (NNPS Voters)))) (, ,)) (CC or) (NP (DT a) (NN county) (NNS elections) (NN official))) (VP (MD may) (, ,) (PP (IN at) (NP (ADJP (PRP$ his) (CC or) (PRP$ her)) (NN discretion))) (, ,) (VP (VB disburse) (NP (NNS ballots)) (ADVP (RB directly)) (S (VP (TO to) (VP (VP (VB precinct) (NP (NN voting) (NNS stations))) (CC or) (VP (VB require) (NP (NP (DT a) (NN voter)) (VP (VBG seeking) (S (VP (TO to) (VP (VB cast) (SBAR (S (NP (DT a) (JJ failsafe) (NN ballot)) (VP (VBP do) (ADVP (RB so)) (PP (IN at) (NP (DT the) (NN county) (NNS elections))) (SBAR (SBAR (S (NP (NN office) (NNS officials)) (VP (MD shall) (VP (VB prepare) (CC and) (VB distribute) (S (NP (NNS forms)) (VP (VBG containing) (NP (NP (DT the) (VBG following) (NN statement)) (: :) (`` ``) (S (NP (PRP I)) (VP (VBP declare) (PP (IN under) (NP (NP (NN penalty)) (PP (IN of) (NP (NN perjury)))))))))) (SBAR (IN that) (S (NP (PRP I)) (VP (VBP am) (NP (NP (DT a) (VBN registered) (NN voter)) (PP (IN in) (NP (NP (DT the) (NN State)) (PP (IN of) (NP (NNP California))))))))))))) (CC and) (SBAR (IN that) (S (NP (PRP I)) (VP (VBP meet) (S (NP (DT the) (NNS criteria)) (ADJP (JJ necessary) (S (VP (TO to) (VP (VB vote) (NP (DT a) (JJ failsafe) (NN ballot))))))))))))))))))))))))) (. .) ('' '')))
+</constituencyParse>
+
+<ner>
+[O, O, TITLE, O, TITLE, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, CRIMINAL_CHARGE, O, O, O, O, O, O, O, O, O, O, STATE_OR_PROVINCE, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (DT The) (NN form)) (VP (MD shall) (VP (VB include) (NP (NP (NP (DT a) (NN description)) (PP (IN of) (NP (DT the) (NNS criteria))) (ADJP (JJ necessary) (PP (IN for) (NP (DT a) (NN voter) (S (VP (TO to) (VP (VB exercise) (NP (NP (DT the) (NN option)) (PP (IN of) (S (VP (VBG voting) (NP (DT a) (JJ failsafe) (NN ballot))))))))))))) (, ,) (NP (NP (DT the) (NN address)) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NN voter)) (VP (VBZ is) (VP (VBN registered)))))) (, ,) (CC and) (NP (NP (DT a) (NN signature) (NN line)) (PP (IN for) (NP (DT the) (NN voter) (S (VP (TO to) (VP (VB attest) (PP (TO to) (NP (ADJP (PRP$ his) (CC or) (PRP$ her)) (NN eligibility)))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (DT The) (NN form)) (VP (VP (MD shall) (VP (VB be) (ADJP (JJ available) (PP (IN at) (NP (DT all) (NN polling) (NNS stations)))) (PP (IN within) (NP (DT the) (NN county))))) (CC and) (VP (MD shall) (VP (VB be) (VP (VBN included) (PP (IN in) (NP (NP (DT the) (JJ failsafe) (NN ballot)) (PP (IN for) (NP (NN transmittal))))) (PP (TO to) (NP (NP (DT the) (NN county)) (SBAR (WHPP (IN in) (WHNP (WDT which))) (S (NP (DT the) (NN voter)) (VP (VBZ is) (VP (VBN registered) (S (VP (TO to) (VP (VB vote)))))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (LST (-LRB- -LRB-) (LS e) (-RRB- -RRB-)) (SBAR (WHADVP (WRB When)) (S (VP (VBG providing) (NP (DT a) (JJ failsafe) (NN ballot)) (PP (TO to) (NP (NP (DT a) (NN voter)) (VP (VBG meeting) (NP (NP (DT the) (NNS criteria)) (PP (IN of) (NP (DT this) (NN section)))))))))) (, ,) (NP (NP (DT the) (NNP County) (NNP Clerk)) (, ,) (NP (NP (NP (NP (NNP Registrar)) (PP (IN of) (NP (NNPS Voters)))) (, ,) (CC or) (NP (NN county) (NNS elections))) (JJ official))) (VP (MD shall) (VP (VB require) (NP (DT the) (NN voter) (S (VP (TO to) (VP (VB sign) (NP (NP (DT a) (NN statement)) (PP (IN of) (NP (NP (NN qualification)) (VP (VBG declaring) (, ,) (PP (IN under) (NP (NP (NN penalty)) (PP (IN of) (NP (NN perjury))))) (, ,) (SBAR (IN that) (S (NP (DT the) (NN voter)) (VP (VP (VBZ meets) (NP (NP (DT the) (NNS criteria)) (VP (VBN set) (ADVP (RB forth)) (PP (IN in) (NP (DT this) (NN section)))))) (, ,) (CC and) (VP (MD shall) (VP (VB retain) (NP (DT the) (JJ original) (NN form)) (PP (IN on) (NP (NN file)))))))))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, TITLE, O, TITLE, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, CRIMINAL_CHARGE, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (LST (-LRB- -LRB-) (LS f) (-RRB- -RRB-)) (NP (NP (LST (-LRB- -LRB-) (LS e) (-RRB- -RRB-)) (NP (DT The)) (PP (VBN completed) (NP (NP (NN failsafe) (NN ballot)) (CC and) (NP (NN statement))))) (ADVP (IN of) (NP (NNS qualifications)))) (VP (MD shall) (VP (VB be) (VP (VBN enclosed) (PP (IN in) (NP (NP (DT a) (JJ provisional) (NN ballot) (NN envelope)) (PP (IN for) (NP (NN transmittal))))) (PP (TO to) (NP (DT the) (JJ appropriate) (NN jurisdiction)))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (NP (NP (-LRB- -LRB-) (NN g) (-RRB- -RRB-)) (NP (DT The) (NNP County) (NNP Clerk))) (, ,) (NP (NP (NP (NNP Registrar)) (PP (IN of) (NP (NNPS Voters)))) (NP (LST (-LRB- -LRB-) (LS f) (-RRB- -RRB-)) (NP (DT The) (NN county) (NN clerk) (, ,) (NN registrar)) (PP (IN of) (NP (NNS voters))))) (, ,) (CC or) (NP (NP (NN county) (NNS elections)) (NP (JJ official)))) (VP (MD shall) (VP (VB transmit) (NP (NP (CC both) (DT the) (NN ballot) (CC and) (NN statement)) (PP (IN of) (NP (NN qualification)))) (PP (TO to) (NP (DT the) (JJ appropriate) (NN jurisdiction))) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NN voter)) (VP (VBZ resides) (S (VP (TO to) (VP (VB be) (VP (VBN included) (PP (IN in) (NP (NP (NP (DT that) (NN jurisdiction) (POS 's)) (JJ official) (NN statement)) (PP (IN of) (NP (NN vote)))))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, TITLE, O, TITLE, O, O, O, O, O, O, O, TITLE, O, TITLE, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (JJ Failsafe) (NNS ballots)) (VP (MD shall) (VP (VB be) (VP (VBN transmitted) (PP (IN within) (NP (NP (CD one) (NN week)) (PP (IN of) (NP (DT the) (NN election)))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, DURATION, DURATION, O, O, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (NP (NP (NN SEC.)) (NP (CD 2)) (. .)))
+</constituencyParse>
+
+<ner>
+[O, NUMBER, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (NP (DT No) (NN reimbursement)) (VP (VBZ is) (VP (VBN required) (PP (IN by) (NP (DT this) (NN act))) (ADVP (JJ pursuant) (PP (TO to) (NP (NP (NN Section) (CD 6)) (PP (IN of) (NP (NP (NNP Article) (NNP XIII) (NN B)) (PP (IN of) (NP (NP (DT the) (NNP California) (NNP Constitution)) (PP (IN for) (NP (JJ certain) (NNS costs))))))) (SBAR (WHNP (WDT that)) (S (VP (MD may) (VP (VB be) (VP (VBN incurred) (PP (IN by) (NP (DT a) (JJ local) (NN agency) (CC or) (NN school) (NN district))) (SBAR (IN because) (S (, ,) (PP (IN in) (NP (DT that) (NN regard))) (, ,) (NP (DT this) (NN act)) (VP (VP (VBZ creates) (NP (DT a) (JJ new) (NN crime) (CC or) (NN infraction))) (, ,) (VP (VBZ eliminates) (NP (DT a) (NN crime) (CC or) (NN infraction))) (, ,) (CC or) (VP (VBZ changes) (NP (DT the) (NN penalty)) (PP (IN for) (NP (NP (DT a) (NN crime) (CC or) (NN infraction)) (, ,) (PP (IN within) (NP (NP (DT the) (NN meaning)) (PP (IN of) (NP (NP (NN Section) (CD 17556)) (PP (IN of) (NP (DT the) (NNP Government) (NNP Code)))))))))) (, ,) (CC or) (VP (VBZ changes) (NP (NP (DT the) (NN definition)) (PP (IN of) (NP (DT a) (NN crime)))) (PP (IN within) (NP (NP (DT the) (NN meaning)) (PP (IN of) (NP (NP (NN Section) (CD 6)) (PP (IN of) (NP (NP (NNP Article) (NNP XIII) (NN B)) (PP (IN of) (NP (DT the) (NNP California) (NNP Constitution))))))))))))))))))))))) (. .)))
+</constituencyParse>
+
+<ner>
+[O, O, O, O, O, O, O, O, O, O, NUMBER, O, O, O, O, O, O, STATE_OR_PROVINCE, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, NUMBER, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, NUMBER, O, O, O, O, O, O, STATE_OR_PROVINCE, O, O]
+</ner>
+</sentence>
+
+<constituencyParse>
+(ROOT (S (ADVP (RB However)) (, ,) (SBAR (IN if) (S (NP (NP (DT the) (NNP Commission)) (PP (IN on) (NP (NNP State) (NNPS Mandates)))) (VP (VBZ determines) (SBAR (IN that) (S (NP (DT this) (NN act)) (VP (VBZ contains) (NP (NP (JJ other) (NNS costs)) (VP (VBN mandated) (PP (IN by) (NP (DT the) (NN state))))))))))) (, ,) (NP (NP (NN reimbursement)) (PP (TO to) (NP
